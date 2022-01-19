@@ -50,3 +50,17 @@ body {
 #login-form input:focus {
     border-color:var(--blue);
 }
+
+#login-form input[type="submit"] {
+    background-color: var(--blue);
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    font-size: 14px;
+}
