@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="./css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frineds Screens</title>
-</head>
-<body>
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <span>U</span>
-            <i class="fas fa-plus"></i>
+    <head>
+        <link rel="stylesheet" href="./css/style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Frineds Screens</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>U</span>
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="status-bar__column status-bar__column-time">
+                <span>00:00</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fas fa-volume-up"></i>
+                <i class="fas fa-random"></i>
+                <span>66%</span>
+                <i class="fas fa-battery-full"></i>
+            </div>
         </div>
-        <div class="status-bar__column status-bar__column-time">
-            <span>00:00</span>
-        </div>
-        <div class="status-bar__column">
-           <i class="fas fa-volume-up"></i>
-           <i class="fas fa-random"></i>
-            <span>66%</span>
-            <i class="fas fa-battery-full"></i>
-        </div>
-    </div>
 
-    <nav>
-        <ul>
-            <li><a href="friends.html">Friend</a></li>
-            <li><a href="chats.html">Chats</a></li>
-            <li><a href="view.html">View</a></li>
-            <li><a href="shop.html">shop</a></li>
-            <li><a href="find.html">Find</a></li>
-        </ul>
-    </nav>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html"><i class="far fa-user fa-lg"></i></a>
+                </li>
 
-    <script src="https://kit.fontawesome.com/27b2ad561b.js" crossorigin="anonymous"></script>
-    <script src="./js/time.js"></script>
-</body>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html"><i class="far fa-comment fa-lg"></i></a>
+                </li>
+
+                <li class="nav__btn">
+                    <a class="nav__link" href="view.html"><i class="fas fa-search fa-lg"></i></a>
+                </li>
+
+                <li class="nav__btn">
+                    <a class="nav__link" href="shop.html"><i class="fas fa-shopping-basket fa-lg"></i></a>
+                </li>
+
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <script src="https://kit.fontawesome.com/27b2ad561b.js" crossorigin="anonymous"></script>
+        <script src="./js/time.js"></script>
+    </body>
 </html>
