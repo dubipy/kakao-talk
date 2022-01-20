@@ -1,3 +1,7 @@
+.user-component {
+    justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
     display: flex;
@@ -25,4 +29,24 @@
 .user-component__avatar--xl {
     width: 80px;
     height: 80px;
+}
+
+.user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.user-component__title--not-bold {
+    font-weight: 400;
+    padding: 0px 12px;
+}
+
+.user-component__text {
+    padding: 10px 0px;
+}
+
+.user-component__event-btn {
+    display: flex;
+    justify-content: space-between;
 }
