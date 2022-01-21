@@ -24,62 +24,37 @@
         </div>
 
         <header class="screen-header">
-            <h1 class="screen-header__title">친구</h1>
+            <h1 class="screen-header__title">채팅</h1>
             <div class="screen-header__icons">
                 <span><i class="fas fa-search fa-lg"></i></span>
-                <span><i class="fas fa-user-plus fa-lg"></i></span>
+                <span><i class="fas fa-comment-medical fa-lg"></i></span>
                 <span><i class="fas fa-music fa-lg"></i></span>
                 <span><i class="fas fa-cog fa-lg"></i></span>
             </div>
         </header>
 
-        <main class="friends-screen">
+        <a id="chats-display-link">
+            <div class="chats-display-link__column">
+                <div class="chats-display-link__text">
+                    <h3 class="chats-display-link__title">뭐어?! 두비가 취업에 성공했다구?</h3>
+                    <h4 class="chats-display-link__subtitle">포트폴리오도 정말 잘 만들었다는데?</h4>
+                </div>
+            <img class="chats-display-link__img" src="./avatar.png" />
+            </div>
+        </a>
+
+        <main class="main-screen">
             <div class="user-component">
                 <div class="user-component__column">
                     <img src="./avatar.png" 
-                    class="user-component__avatar user-component__avatar--xl" />
+                    class="user-component__avatar user-component__avatar" />
                     <div class="user-component__text">
                         <h4 class="user-component__title">김민준</h4>
-                        <h6 class="user-component__subtitle">text test</h6>
+                        <h6 class="user-component__subtitle">테스트문구</h6>
                     </div>
                 </div>
                 <div class="user-component__column"></div>
             </div>
-            <div class="friends-screen__channel">
-                <div class="friends-screen__channel-header">
-                    <span>내 멀티 프로필 1</span>
-                    <i class="fas fa-chevron-up fa-lg"></i>
-                </div>
-            </div>
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="./avatar.png" 
-                    class="user-component__avatar user-component__avatar--sm" />
-                </div>
-                <div class="user-component__column"></div>
-            </div>
-            <div class="user-component__text">
-                <h4 class="user-component__title user-component__title--not-bold">두비</h4>
-            </div>
-
-            <div class="friends-screen__channel">
-                <div class="friends-screen__channel-header">
-                    <span>생일인 친구</span>
-                    <i class="fas fa-chevron-up fa-lg"></i>
-                </div>
-            </div>
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="./avatar.png" 
-                    class="user-component__avatar user-component__avatar--sm" />
-                    <div class="user-component__text user-component__event-btn">
-                        <h4 class="user-component__title">김두비</h4>
-                        <h6 class="user-component__evene-btn">text test</h6>
-                    </div>
-                </div>
-                <div class="user-component__column"></div>
-            </div>
-
         </main>
 
         <nav class="nav">
@@ -93,7 +68,7 @@
                 <li class="nav__btn">
                     <a class="nav__link" href="chats.html">
                         <span class="nav__notification-chat">999+</span>
-                        <i class="far fa-comment fa-2x"></i>
+                        <i class="fas fa-comment fa-2x"></i>
                     </a>
                 </li>
 
@@ -106,13 +81,6 @@
                 <li class="nav__btn">
                     <a class="nav__link" href="shop.html">
                         <i class="fas fa-shopping-basket fa-2x"></i>
-                    </a>
-                </li>
-
-                <li class="nav__btn">
-                    <a class="nav__link" href="find.html">
-                        <span class="nav__notification-find"></span>
-                        <i class="fas fa-ellipsis-h fa-2x"></i>
                     </a>
                 </li>
 
