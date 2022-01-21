@@ -18,28 +18,13 @@
 }
 
 .nav__notification-chat {
-    background-color: tomato;
-    width: 50px;
-    height: 22px;
-    font-size: 13px;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
     position: absolute;
     left: 185px;
     top: 10px;
 }
 
 .nav__notification-find {
-    background-color: tomato;
-    width: 8px;
-    height: 8px;
-    border-radius: 13px;
-    display: flex;
     position: absolute;
-    right: 45px;
-    top: 15px;
+    right: 43px;
+    top: 18px;
 }
