@@ -78,3 +78,17 @@
     border-radius: 40px;
 }
 
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.open-chat__header span {
+    opacity: 0.6;
+}
+
+
+
+
+
