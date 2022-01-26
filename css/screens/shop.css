@@ -1,3 +1,9 @@
+.shop-search,
+.open-chat
+{
+    padding: 0 20px;
+}
+
 .shop-screen-header__badge {
     position: absolute;
     right: 28px;
@@ -82,13 +88,52 @@
     display: flex;
     justify-content: space-between;
     opacity: 0.8;
+    margin-bottom: 25px;
 }
 
 .open-chat__header span {
     opacity: 0.6;
 }
 
+.opsn-post {
+    display: flex;
+}
 
+.open-post__title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
+.open-post__hashtags {
+    text-transform: uppercase;
+    opacity: 0.6;
+}
 
+.open-post__members {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
 
+.open-post__members img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open-post__member-count {
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.open-post__members .divider {
+    width: 1px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #222222;
+}
+
+.open-post__member-status {
+    color: #ffb0e0;
+}
