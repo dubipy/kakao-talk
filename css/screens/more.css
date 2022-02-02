@@ -1,0 +1,59 @@
+.more-payment {
+    padding: 30px 40px;
+    background-color: var(--blue);
+}
+
+.more-payment__cloumn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-payment__title {
+    display: flex;
+    align-items: center;
+}
+
+.more-payment__title span{
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 7px;
+}
+
+.more-payment__subtitle {
+    font-size: 22px;
+    display: flex;
+}
+
+.more-payment__subtitle i {
+    margin-right: 10px;
+}
+
+.more-divider {
+    width: 2px;
+    height: 20px;
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0px 20px;
+}
+
+#more-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#more-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+#more-form input[type="submit"] {
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 20px 0px;
+    margin: 30px;
+    border-radius: 5px;
+}
