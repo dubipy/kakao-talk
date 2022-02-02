@@ -57,3 +57,19 @@
     margin: 30px;
     border-radius: 5px;
 }
+
+.more-payment__pay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-payment__pay span {
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.more-payment__money {
+    font-size: 25px;
+    font-weight: 600;
+}
