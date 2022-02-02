@@ -12,6 +12,7 @@
 .more-payment__title {
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .more-payment__title span{
@@ -72,4 +73,32 @@
 .more-payment__money {
     font-size: 25px;
     font-weight: 600;
+}
+
+.more-payment__btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-payment__btn span {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.more-payment__checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-payment__checkout i {
+    margin-right: 8px;
+}
+
+.more-payment__checkout span {
+    font-size: 25px;
+}
+
+.more-payment__cloumn--mg {
+    margin: 40px 0px 20px 0px;
 }
