@@ -1,3 +1,11 @@
+.more-divider {
+    width: 2px;
+    height: 25px;
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0px 20px;
+}
+
 .more-payment {
     padding: 30px 40px;
     background-color: var(--blue);
@@ -30,13 +38,6 @@
     margin-right: 10px;
 }
 
-.more-divider {
-    width: 2px;
-    height: 20px;
-    margin: 0 5px;
-    background-color: rgba(0, 0, 0, 0.3);
-    margin: 0px 20px;
-}
 
 #more-form {
     display: flex;
