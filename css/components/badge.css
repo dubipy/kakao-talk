@@ -30,3 +30,18 @@
     color: white;
     font-weight: 600;
 }
+
+.badge-settings {
+    font-size: 15px;
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 15px;
+    width: 10px;
+    height: 10px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
