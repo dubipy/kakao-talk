@@ -1,6 +1,6 @@
 .setting__setting {
-    padding: 20px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -10,4 +10,20 @@
     margin-right: 18px;
     font-size: 22px;
     opacity: 0.8;
+}
+
+.settings__setting-column--sub {
+    margin: 13px 0 0 42px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+}
+
+.settings__setting-column--icon {
+    display: flex;
+    align-items: center;
+}
+
+.settings__setting-column--icon p {
+    margin-left: 10px;
 }
