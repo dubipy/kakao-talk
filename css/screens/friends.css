@@ -26,7 +26,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: hideSplashScreen 1s ease-in-out forwards;
+    animation: hideSplashScreen 0.3s ease-in-out forwards;
+    animation-delay: 0.7s;
 }
 
 #splash-screen img {
