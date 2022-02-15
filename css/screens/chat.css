@@ -45,6 +45,11 @@
   }
 }
 
+.reply:focus-within .reply__column:first-child {
+  opacity: 0;
+}
+
+
 .main-chat {
     margin-top: 120px;
     display: flex;
