@@ -8,6 +8,25 @@
     align-items: center;
 }
 
+.birthday {
+    color: rgba(0, 0, 0, 0.7);
+    border: 3px solid tomato;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.birthday span {
+    margin-right: 4px;
+}
+
+.birthday i {
+    color: tomato;
+}
+
+
 .user-component__column:last-child {
     color: rgba(0, 0, 0, 0.4);
     display: flex;
